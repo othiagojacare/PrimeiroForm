@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+}
+
+h1{
+    Color:orange;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   }
+
+.principal__form{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid grey;
+    width: 500px;
+    padding: 50px;
+    margin: 10px 25%;
+    border-radius: 25px;
+    box-shadow: 0px 15px 15px 0px;
+    gap: 30px;
+}
+
+.secao{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.secao input{
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.secao__item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.botoes{
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.botao{
+    padding: 10px;
+    border-radius: 5px; 
+    width: 100px;
+}
+
+.confirma{
+    background-color: orange;
+    color: white;
+    border: none;
+}
+
+.cancela{
+    border: none;
+    color: grey;
+}
+
+.botao:hover{
+    cursor: pointer;
+}
+
+.link{
+    text-decoration: none;
+    color: orange;
+}
